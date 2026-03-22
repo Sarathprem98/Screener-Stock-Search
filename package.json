@@ -1,0 +1,21 @@
+{
+  "name": "screener-stock-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {"pretest:report": "rimraf allure-results",
+  "test:report": "npx playwright test",
+    "posttest:report": "npx allure serve allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "allure-commandline": "^2.38.1",
+    "allure-playwright": "^3.6.0",
+    "rimraf": "^6.1.3"
+  }
+}
