@@ -1,0 +1,13 @@
+Test started: TC_05: Lowercase search should return matching results
+List of Tata results displayed: [
+  'Tata Steel Ltd',
+  'Tata Capital Ltd',
+  'Tata Power Company Ltd',
+  'Tata Consumer Products Ltd',
+  'Tata Communications Ltd',
+  'Tata Investment Corporation Ltd',
+  'Tata Elxsi Ltd',
+  'Tata Technologies Ltd',
+  'Search everywhere: tata'
+]
+Test ended

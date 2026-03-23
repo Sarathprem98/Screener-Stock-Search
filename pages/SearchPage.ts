@@ -14,7 +14,7 @@ export class SearchPage {
   async search(text: string) {
     await this.searchBox.fill(text);
   }
-
+//
   async getResultsText() {
     await this.results.first().waitFor();
     return this.results.allTextContents();

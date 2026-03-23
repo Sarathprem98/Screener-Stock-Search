@@ -1,0 +1,3 @@
+Test started: TC_06: No stock should display while searching XYZM
+No Results Message: Search everywhere: XYZM
+Test ended

@@ -1,0 +1,14 @@
+Test started: TC_07:Extra spaces should be trimmed automatically
+No of Reliance resultls: 9
+List of Reliance results displayed: [
+  'Reliance Industries Ltd',
+  'Reliance Power Ltd',
+  'Reliance Infrastructure Ltd',
+  'Reliance Communications Ltd',
+  'Reliance Home Finance Ltd',
+  'Reliance Industrial Infrastructure Ltd',
+  'Reliance Chemotex Industries Ltd',
+  'Reliance Industries Ltd Partly Paidup',
+  'Search everywhere:  RELIANCE '
+]
+Test ended
