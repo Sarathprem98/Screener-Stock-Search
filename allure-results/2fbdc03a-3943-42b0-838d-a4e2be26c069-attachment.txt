@@ -1,0 +1,9 @@
+Test started: TC_03: Typing 3 characters should trigger API and display results
+2026-03-25T07:02:03.114Z [INFO]: Typed search : ZBO
+API URL: https://www.screener.in/api/company/search/?q=ZBO&v=3&fts=1
+Status Code: 200
+Response Time (ms): 119.451904296875
+2026-03-25T07:02:03.919Z [INFO]: Waited for debounce
+2026-03-25T07:02:04.131Z [INFO]: List of results displayed:Search everywhere: ZBO
+2026-03-25T07:02:04.132Z [INFO]: API calls triggered:1
+Test ended

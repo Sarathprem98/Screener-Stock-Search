@@ -1,5 +1,0 @@
-Test started: TC_05: Lowercase search should return matching results
-2026-03-25T06:58:14.048Z [INFO]: Typed search : franecki inc
-2026-03-25T06:58:14.951Z [INFO]: Waited for debounce
-2026-03-25T06:58:15.358Z [INFO]: List of results displayed:Search everywhere: franecki inc
-Test ended

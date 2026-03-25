@@ -1,0 +1,5 @@
+Test started: TC_05: Lowercase search should return matching results
+2026-03-25T07:01:34.574Z [INFO]: Typed search : feeney - bruen
+2026-03-25T07:01:35.414Z [INFO]: Waited for debounce
+2026-03-25T07:01:35.532Z [INFO]: List of results displayed:Search everywhere: feeney - bruen
+Test ended

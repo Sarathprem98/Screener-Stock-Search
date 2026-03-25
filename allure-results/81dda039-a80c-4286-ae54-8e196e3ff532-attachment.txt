@@ -1,0 +1,10 @@
+Test started: TC_11: Numeric BSE codes should be recognized
+2026-03-25T07:02:30.998Z [INFO]: Typed search : 500170
+API URL: https://www.screener.in/api/company/search/?q=500170&v=3&fts=1
+Status Code: 200
+Response Time (ms): 81.10791015625
+2026-03-25T07:02:31.752Z [INFO]: Waited for debounce
+2026-03-25T07:02:31.756Z [INFO]: API calls triggered for numeric code:1
+2026-03-25T07:02:32.045Z [INFO]: Results for numeric code:GTN Industries Ltd,Search everywhere: 500170
+2026-03-25T07:02:32.073Z [INFO]: Number of results for numeric code:2
+Test ended

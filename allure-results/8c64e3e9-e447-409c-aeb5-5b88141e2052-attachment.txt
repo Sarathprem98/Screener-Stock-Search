@@ -1,9 +1,0 @@
-Test started: TC_03: Typing 3 characters should trigger API and display results
-2026-03-25T06:58:34.861Z [INFO]: Typed search : HAN
-API URL: https://www.screener.in/api/company/search/?q=HAN&v=3&fts=1
-Status Code: 200
-Response Time (ms): 65.201
-2026-03-25T06:58:35.779Z [INFO]: Waited for debounce
-2026-03-25T06:58:35.911Z [INFO]: List of results displayed:Hannah Joseph Hospital Ltd,Hanman Fit Ltd,Handson Global Management (HGM) Ltd,Shree Hanuman Sugar & Industries Ltd,Samvardhana Motherson International Ltd,Multi Commodity Exchange of India Ltd,Bandhan Bank Ltd,Cohance Lifesciences Ltd,Search everywhere: HAN
-2026-03-25T06:58:35.912Z [INFO]: API calls triggered:1
-Test ended

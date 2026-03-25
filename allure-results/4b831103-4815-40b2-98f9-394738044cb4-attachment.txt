@@ -1,0 +1,6 @@
+Test started: TC_07:Extra spaces should be trimmed automatically from random data
+2026-03-25T07:01:38.125Z [INFO]: Typed search :   SAWA  
+2026-03-25T07:01:38.800Z [INFO]: Waited for debounce
+2026-03-25T07:01:38.812Z [INFO]: No of resultls:5
+2026-03-25T07:01:38.865Z [INFO]: List of results displayed:Sawaliya Food Products Ltd,Sawaca Enterprises Ltd,Sawaca Communication Ltd,Sawant Food Products Ltd,Search everywhere:   SAWA  
+Test ended

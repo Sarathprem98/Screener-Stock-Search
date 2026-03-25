@@ -1,0 +1,9 @@
+Test started: TC_02: Typing 2 characters should not trigger API and display results
+2026-03-25T07:01:57.986Z [INFO]: Typed search : PA
+API URL: https://www.screener.in/api/company/search/?q=PA&v=3&fts=1
+Status Code: 200
+Response Time (ms): 82.985107421875
+2026-03-25T07:01:58.820Z [INFO]: Waited for debounce
+2026-03-25T07:01:58.955Z [INFO]: List of results displayed:Patanjali Foods Ltd,Page Industries Ltd,Paradeep Phosphates Ltd,Park Medi World Ltd,Paras Defence and Space Technologies Ltd,Pace Digitek Ltd,Paisalo Digital Ltd,Parag Milk Foods Ltd,Search everywhere: PA
+2026-03-25T07:01:58.956Z [INFO]: API calls triggered:1
+Test ended

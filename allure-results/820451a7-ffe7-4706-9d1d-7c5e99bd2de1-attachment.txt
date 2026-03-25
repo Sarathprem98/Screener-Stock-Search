@@ -1,0 +1,20 @@
+Test started: TC_09: Rapid typing and then backspace
+API URL: https://www.screener.in/api/company/search/?q=T&v=3&fts=1
+Status Code: 200
+Response Time (ms): 87.55
+API URL: https://www.screener.in/api/company/search/?q=TR&v=3&fts=1
+Status Code: 200
+Response Time (ms): 49.26
+API URL: https://www.screener.in/api/company/search/?q=TRE&v=3&fts=1
+Status Code: 200
+Response Time (ms): 42.97
+API URL: https://www.screener.in/api/company/search/?q=TREM&v=3&fts=1
+Status Code: 200
+Response Time (ms): 43.357
+API URL: https://www.screener.in/api/company/search/?q=TREMB&v=3&fts=1
+Status Code: 200
+Response Time (ms): 68.059
+2026-03-25T07:02:31.547Z [INFO]: Waited for debounce
+2026-03-25T07:02:31.706Z [INFO]: List of results displayed:Trent Ltd,Trejhara Solutions Ltd,Tree House Education & Accessories Ltd,Trescon Ltd,TransIndia Real Estate Ltd,LTIMindtree Ltd,Vijaya Diagnostic Centre Ltd,Lemon Tree Hotels Ltd,Search everywhere: TRE
+2026-03-25T07:02:31.706Z [INFO]: API calls triggered after backspace:5
+Test ended

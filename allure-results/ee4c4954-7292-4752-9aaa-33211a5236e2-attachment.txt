@@ -1,0 +1,5 @@
+Test started: TC_06: No stock should display while searching Random Data
+2026-03-25T07:01:34.438Z [INFO]: Typed search : YMHSH
+2026-03-25T07:01:35.123Z [INFO]: Waited for debounce
+2026-03-25T07:01:35.262Z [INFO]: No Results Message:Search everywhere: YMHSH
+Test ended

@@ -1,0 +1,6 @@
+Test started: TC_07:Extra spaces should be trimmed automatically from random data
+2026-03-25T07:02:22.946Z [INFO]: Typed search :   KERL  
+2026-03-25T07:02:24.261Z [INFO]: Waited for debounce
+2026-03-25T07:02:24.314Z [INFO]: No of resultls:1
+2026-03-25T07:02:25.005Z [INFO]: List of results displayed:Search everywhere:   KERL  
+Test ended

@@ -1,0 +1,5 @@
+Test started: TC_05: Lowercase search should return matching results
+2026-03-25T07:07:40.836Z [INFO]: Typed search : corm
+2026-03-25T07:07:41.406Z [INFO]: Waited for debounce
+2026-03-25T07:07:41.431Z [INFO]: List of results displayed:Search everywhere: corm
+Test ended

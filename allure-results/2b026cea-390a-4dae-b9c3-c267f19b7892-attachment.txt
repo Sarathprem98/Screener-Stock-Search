@@ -1,0 +1,10 @@
+Test started: TC_11: Numeric BSE codes should be recognized
+2026-03-25T07:01:46.237Z [INFO]: Typed search : 500178
+API URL: https://www.screener.in/api/company/search/?q=500178&v=3&fts=1
+Status Code: 200
+Response Time (ms): 39.105
+2026-03-25T07:01:46.873Z [INFO]: Waited for debounce
+2026-03-25T07:01:46.873Z [INFO]: API calls triggered for numeric code:1
+2026-03-25T07:01:46.927Z [INFO]: Results for numeric code:Harig Crankshafts Ltd,Search everywhere: 500178
+2026-03-25T07:01:46.938Z [INFO]: Number of results for numeric code:2
+Test ended

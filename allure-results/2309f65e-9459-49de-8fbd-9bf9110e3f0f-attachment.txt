@@ -1,9 +1,0 @@
-Test started: TC_02: Typing 2 characters should not trigger API and display results
-2026-03-25T06:58:34.224Z [INFO]: Typed search : SC
-API URL: https://www.screener.in/api/company/search/?q=SC&v=3&fts=1
-Status Code: 200
-Response Time (ms): 82.133
-2026-03-25T06:58:35.077Z [INFO]: Waited for debounce
-2026-03-25T06:58:35.221Z [INFO]: List of results displayed:Schaeffler India Ltd,Schneider Electric Infrastructure Ltd,Scoda Tubes Ltd,SC Agrotech Ltd,Scan Steels Ltd,Scoobee Day Garments India Ltd,Scan Projects Ltd,Scintilla Commercial & Credit Ltd,Search everywhere: SC
-2026-03-25T06:58:35.222Z [INFO]: API calls triggered:1
-Test ended

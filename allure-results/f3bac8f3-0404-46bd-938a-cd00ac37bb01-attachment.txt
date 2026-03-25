@@ -1,0 +1,6 @@
+Test started: TC_08: Special characters should be handled
+2026-03-25T07:02:08.375Z [INFO]: Typed search : ?.\*
+2026-03-25T07:02:09.435Z [INFO]: Waited for debounce
+2026-03-25T07:02:09.670Z [INFO]: no of results count:1
+2026-03-25T07:02:09.670Z [INFO]: Results for special characters:Search everywhere: ?.\*
+Test ended

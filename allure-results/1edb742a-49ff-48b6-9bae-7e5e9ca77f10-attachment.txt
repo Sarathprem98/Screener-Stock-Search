@@ -1,0 +1,9 @@
+Test started: TC_02: Typing 2 characters should not trigger API and display results
+2026-03-25T07:01:34.322Z [INFO]: Typed search : PR
+API URL: https://www.screener.in/api/company/search/?q=PR&v=3&fts=1
+Status Code: 200
+Response Time (ms): 49.091
+2026-03-25T07:01:35.016Z [INFO]: Waited for debounce
+2026-03-25T07:01:35.149Z [INFO]: List of results displayed:Prestige Estates Projects Ltd,Premier Energies Ltd,Privi Speciality Chemicals Ltd,Prudent Corporate Advisory Services Ltd,Pricol Ltd,Prism Johnson Ltd,Praj Industries Ltd,Precision Wires India Ltd,Search everywhere: PR
+2026-03-25T07:01:35.151Z [INFO]: API calls triggered:1
+Test ended

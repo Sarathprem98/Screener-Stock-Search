@@ -1,6 +1,0 @@
-Test started: TC_07:Extra spaces should be trimmed automatically from random data
-2026-03-25T06:57:49.273Z [INFO]: Typed search :   WOLF  
-2026-03-25T06:57:49.945Z [INFO]: Waited for debounce
-2026-03-25T06:57:49.954Z [INFO]: No of resultls:1
-2026-03-25T06:57:50.004Z [INFO]: List of results displayed:Search everywhere:   WOLF  
-Test ended

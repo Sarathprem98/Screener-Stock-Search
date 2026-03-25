@@ -1,0 +1,5 @@
+Test started: TC_05: Lowercase search should return matching results
+2026-03-25T07:08:06.373Z [INFO]: Typed search : bec
+2026-03-25T07:08:06.963Z [INFO]: Waited for debounce
+2026-03-25T07:08:06.991Z [INFO]: List of results displayed:Mrs Bectors Food Specialities Ltd,Elantas Beck India Ltd,Canara Robeco Asset Management Company Ltd,Globe Civil Projects Ltd,SBEC Sugar Ltd,SBEC Systems (India) Ltd,Beckons Industries Ltd,Best & Crompton Engineering Ltd,Search everywhere: bec
+Test ended

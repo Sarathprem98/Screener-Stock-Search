@@ -1,6 +1,0 @@
-Test started: TC_08: Special characters should be handled
-2026-03-25T06:58:39.273Z [INFO]: Typed search : :)~,
-2026-03-25T06:58:40.061Z [INFO]: Waited for debounce
-2026-03-25T06:58:40.255Z [INFO]: no of results count:1
-2026-03-25T06:58:40.255Z [INFO]: Results for special characters:Search everywhere: :)~,
-Test ended

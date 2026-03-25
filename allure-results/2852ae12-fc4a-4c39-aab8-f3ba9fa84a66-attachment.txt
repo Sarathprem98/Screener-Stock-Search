@@ -1,0 +1,5 @@
+Test started: TC_06: No stock should display while searching Random Data
+2026-03-25T07:02:07.482Z [INFO]: Typed search : RWMIS
+2026-03-25T07:02:08.275Z [INFO]: Waited for debounce
+2026-03-25T07:02:08.391Z [INFO]: No Results Message:Search everywhere: RWMIS
+Test ended

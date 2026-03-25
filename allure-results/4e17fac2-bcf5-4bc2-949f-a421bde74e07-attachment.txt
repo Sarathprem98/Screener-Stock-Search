@@ -1,0 +1,17 @@
+Test started: TC_04: Rapid typing should not trigger API call
+API URL: https://www.screener.in/api/company/search/?q=H&v=3&fts=1
+Status Code: 200
+Response Time (ms): 58.451904296875
+API URL: https://www.screener.in/api/company/search/?q=HY&v=3&fts=1
+Status Code: 200
+Response Time (ms): 75.44189453125
+API URL: https://www.screener.in/api/company/search/?q=HYA&v=3&fts=1
+Status Code: 200
+Response Time (ms): 113.427001953125
+API URL: https://www.screener.in/api/company/search/?q=HYAT&v=3&fts=1
+Status Code: 200
+Response Time (ms): 96.714111328125
+2026-03-25T07:02:02.443Z [INFO]: Waited for debounce
+2026-03-25T07:02:05.810Z [INFO]: List of results displayed:Vindhya Telelinks Ltd,Khyati Global Ventures Ltd,Khyati Multimedia Entertainment Ltd,Search everywhere: HYAT
+2026-03-25T07:02:05.811Z [INFO]: API calls triggered after rapid typing:4
+Test ended

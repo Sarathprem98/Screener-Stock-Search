@@ -1,0 +1,9 @@
+Test started: TC_03: Typing 3 characters should trigger API and display results
+2026-03-25T07:02:26.251Z [INFO]: Typed search : TRE
+API URL: https://www.screener.in/api/company/search/?q=TRE&v=3&fts=1
+Status Code: 200
+Response Time (ms): 48.404
+2026-03-25T07:02:27.181Z [INFO]: Waited for debounce
+2026-03-25T07:02:27.348Z [INFO]: List of results displayed:Trent Ltd,Trejhara Solutions Ltd,Tree House Education & Accessories Ltd,Trescon Ltd,TransIndia Real Estate Ltd,LTIMindtree Ltd,Vijaya Diagnostic Centre Ltd,Lemon Tree Hotels Ltd,Search everywhere: TRE
+2026-03-25T07:02:27.349Z [INFO]: API calls triggered:1
+Test ended

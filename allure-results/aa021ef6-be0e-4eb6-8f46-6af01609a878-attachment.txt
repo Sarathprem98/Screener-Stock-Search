@@ -1,9 +1,0 @@
-Test started: TC_03: Typing 3 characters should trigger API and display results
-2026-03-25T06:57:45.547Z [INFO]: Typed search : GOL
-API URL: https://www.screener.in/api/company/search/?q=GOL&v=3&fts=1
-Status Code: 200
-Response Time (ms): 104.75
-2026-03-25T06:57:46.265Z [INFO]: Waited for debounce
-2026-03-25T06:57:46.368Z [INFO]: List of results displayed:Goldiam International Ltd,Golden Tobacco Ltd,Goldkart Jewels Ltd,Golkunda Diamonds & Jewellery Ltd,Goldstar Power Ltd,Golden Crest Education & Services Ltd,Golechha Global Finance Ltd,Golden Legand Leasing & Finance Ltd,Search everywhere: GOL
-2026-03-25T06:57:46.369Z [INFO]: API calls triggered:1
-Test ended

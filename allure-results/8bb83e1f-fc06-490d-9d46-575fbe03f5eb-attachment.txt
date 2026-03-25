@@ -1,0 +1,5 @@
+Test started: TC_05: Lowercase search should return matching results
+2026-03-25T07:02:27.929Z [INFO]: Typed search : kertzmann group
+2026-03-25T07:02:28.872Z [INFO]: Waited for debounce
+2026-03-25T07:02:28.986Z [INFO]: List of results displayed:Search everywhere: kertzmann group
+Test ended

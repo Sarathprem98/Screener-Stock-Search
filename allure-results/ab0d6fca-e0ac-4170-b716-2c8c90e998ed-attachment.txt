@@ -1,0 +1,10 @@
+Test started: TC_11: Numeric BSE codes should be recognized
+2026-03-25T07:02:39.333Z [INFO]: Typed search : 500133
+API URL: https://www.screener.in/api/company/search/?q=500133&v=3&fts=1
+Status Code: 200
+Response Time (ms): 37.341
+2026-03-25T07:02:39.947Z [INFO]: Waited for debounce
+2026-03-25T07:02:39.948Z [INFO]: API calls triggered for numeric code:1
+2026-03-25T07:02:39.983Z [INFO]: Results for numeric code:Esab India Ltd,Search everywhere: 500133
+2026-03-25T07:02:39.991Z [INFO]: Number of results for numeric code:2
+Test ended

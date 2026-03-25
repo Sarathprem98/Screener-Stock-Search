@@ -1,0 +1,26 @@
+Test started: TC_09: Rapid typing and then backspace
+API URL: https://www.screener.in/api/company/search/?q=S&v=3&fts=1
+Status Code: 200
+Response Time (ms): 75.4150390625
+API URL: https://www.screener.in/api/company/search/?q=SH&v=3&fts=1
+Status Code: 200
+Response Time (ms): 66.324951171875
+API URL: https://www.screener.in/api/company/search/?q=SHA&v=3&fts=1
+Status Code: 200
+Response Time (ms): 76.193115234375
+API URL: https://www.screener.in/api/company/search/?q=SHAN&v=3&fts=1
+Status Code: 200
+Response Time (ms): 77.760986328125
+API URL: https://www.screener.in/api/company/search/?q=SHANA&v=3&fts=1
+Status Code: 200
+Response Time (ms): 86.118896484375
+API URL: https://www.screener.in/api/company/search/?q=SHAN&v=3&fts=1
+Status Code: 200
+Response Time (ms): -1
+API URL: https://www.screener.in/api/company/search/?q=SHA&v=3&fts=1
+Status Code: 200
+Response Time (ms): -1
+2026-03-25T07:02:10.783Z [INFO]: Waited for debounce
+2026-03-25T07:02:10.856Z [INFO]: List of results displayed:Shaily Engineering Plastics Ltd,Sharda Cropchem Ltd,Shadowfax Technologies Ltd,Shakti Pumps (India) Ltd,Sharda Motor Industries Ltd,Shanthi Gears Ltd,Share India Securities Ltd,Shalby Ltd,Search everywhere: SHA
+2026-03-25T07:02:10.856Z [INFO]: API calls triggered after backspace:7
+Test ended

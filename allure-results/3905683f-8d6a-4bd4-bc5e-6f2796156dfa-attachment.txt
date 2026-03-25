@@ -1,0 +1,5 @@
+Test started: TC_05: Lowercase search should return matching results
+2026-03-25T07:07:03.155Z [INFO]: Typed search : stant
+2026-03-25T07:07:03.725Z [INFO]: Waited for debounce
+2026-03-25T07:07:03.750Z [INFO]: List of results displayed:Search everywhere: stant
+Test ended

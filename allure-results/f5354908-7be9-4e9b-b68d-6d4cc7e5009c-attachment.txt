@@ -1,0 +1,5 @@
+Test started: TC_06: No stock should display while searching Random Data
+2026-03-25T07:02:38.024Z [INFO]: Typed search : MHHRB
+2026-03-25T07:02:38.862Z [INFO]: Waited for debounce
+2026-03-25T07:02:38.918Z [INFO]: No Results Message:Search everywhere: MHHRB
+Test ended

@@ -1,5 +1,0 @@
-Test started: TC_06: No stock should display while searching Random Data
-2026-03-25T06:58:18.118Z [INFO]: Typed search : SCESO
-2026-03-25T06:58:18.845Z [INFO]: Waited for debounce
-2026-03-25T06:58:18.973Z [INFO]: No Results Message:Search everywhere: SCESO
-Test ended

@@ -1,0 +1,9 @@
+Test started: TC_02: Typing 2 characters should not trigger API and display results
+2026-03-25T07:02:26.082Z [INFO]: Typed search : JE
+API URL: https://www.screener.in/api/company/search/?q=JE&v=3&fts=1
+Status Code: 200
+Response Time (ms): 111.153
+2026-03-25T07:02:27.027Z [INFO]: Waited for debounce
+2026-03-25T07:02:27.119Z [INFO]: List of results displayed:Jet Freight Logistics Ltd,Jenburkt Pharmaceuticals Ltd,Jeyyam Global Foods Ltd,Jetking Infotrain Ltd,Jet Solar Ltd,Jetmall Spices and Masala Ltd,Jeena Sikho Lifecare Ltd,Jeevan Scientific Technology Ltd,Search everywhere: JE
+2026-03-25T07:02:27.120Z [INFO]: API calls triggered:1
+Test ended

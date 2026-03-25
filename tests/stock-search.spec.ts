@@ -107,7 +107,7 @@ test.describe('Stock Search Functionality', () => {
 
 
         // Radom company name with 3 characters in lowercase
-        await searchPage.search(Company.toLowerCase());
+        await searchPage.search(Company.slice(0, 3).toLowerCase());
         
 
         // Wait for results

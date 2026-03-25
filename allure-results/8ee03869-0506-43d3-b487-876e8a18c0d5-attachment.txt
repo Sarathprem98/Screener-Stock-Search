@@ -1,0 +1,6 @@
+Test started: TC_07:Extra spaces should be trimmed automatically from random data
+2026-03-25T07:02:36.349Z [INFO]: Typed search :   KLOC  
+2026-03-25T07:02:37.125Z [INFO]: Waited for debounce
+2026-03-25T07:02:37.232Z [INFO]: No of resultls:1
+2026-03-25T07:02:37.427Z [INFO]: List of results displayed:Search everywhere:   KLOC  
+Test ended

@@ -1,0 +1,5 @@
+Test started: TC_05: Lowercase search should return matching results
+2026-03-25T07:08:17.286Z [INFO]: Typed search : von
+2026-03-25T07:08:17.854Z [INFO]: Waited for debounce
+2026-03-25T07:08:17.880Z [INFO]: List of results displayed:Avonmore Capital & Management Services Ltd,Evonith Value Steels Ltd,Avon Corporation Ltd,Avon Mercantile Ltd,Evonik India Pvt Ltd,Avon Industries Ltd,Evonne Electric Pvt Ltd,Search everywhere: von
+Test ended

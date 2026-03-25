@@ -1,0 +1,5 @@
+Test started: TC_05: Lowercase search should return matching results
+2026-03-25T07:08:30.658Z [INFO]: Typed search : kos
+2026-03-25T07:08:31.235Z [INFO]: Waited for debounce
+2026-03-25T07:08:31.261Z [INFO]: List of results displayed:Alkosign Ltd,KOSEF Synthetic India ETF,Kosan Trading Ltd,Nova Surgikos Ltd,Search everywhere: kos
+Test ended

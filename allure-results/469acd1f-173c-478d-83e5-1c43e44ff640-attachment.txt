@@ -1,0 +1,5 @@
+Test started: TC_05: Lowercase search should return matching results
+2026-03-25T07:07:48.229Z [INFO]: Typed search : hegm
+2026-03-25T07:07:48.799Z [INFO]: Waited for debounce
+2026-03-25T07:07:48.824Z [INFO]: List of results displayed:Search everywhere: hegm
+Test ended

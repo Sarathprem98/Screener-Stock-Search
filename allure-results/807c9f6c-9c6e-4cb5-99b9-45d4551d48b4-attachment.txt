@@ -1,5 +1,0 @@
-Test started: TC_05: Lowercase search should return matching results
-2026-03-25T06:57:45.743Z [INFO]: Typed search : schinner, funk and tillman
-2026-03-25T06:57:46.423Z [INFO]: Waited for debounce
-2026-03-25T06:57:46.590Z [INFO]: List of results displayed:Search everywhere: schinner, funk and tillman
-Test ended

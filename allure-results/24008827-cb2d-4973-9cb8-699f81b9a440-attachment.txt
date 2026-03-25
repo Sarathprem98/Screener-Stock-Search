@@ -1,0 +1,5 @@
+Test started: TC_05: Lowercase search should return matching results
+2026-03-25T07:02:04.484Z [INFO]: Typed search : shanahan, franecki and hamill
+2026-03-25T07:02:05.298Z [INFO]: Waited for debounce
+2026-03-25T07:02:05.560Z [INFO]: List of results displayed:Search everywhere: shanahan, franecki and hamill
+Test ended
