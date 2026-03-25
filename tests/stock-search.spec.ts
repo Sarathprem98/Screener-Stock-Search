@@ -1,4 +1,3 @@
-import { faker } from '@faker-js/faker/locale/zu_ZA';
 import { test, expect } from '../hooks/testHooks';
 import { trackAPICalls, waitForDebounce } from '../utils/API-Debounce';
 import logger from '../utils/Logger';
