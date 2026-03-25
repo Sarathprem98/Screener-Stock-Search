@@ -1,2 +1,0 @@
-Test started: TC_01: Search bar visible/clickable on the main page
-Test ended

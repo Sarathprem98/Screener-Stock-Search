@@ -1,0 +1,5 @@
+Test started: TC_06: No stock should display while searching Random Data
+2026-03-25T06:58:36.339Z [INFO]: Typed search : BGABD
+2026-03-25T06:58:37.408Z [INFO]: Waited for debounce
+2026-03-25T06:58:37.503Z [INFO]: No Results Message:Search everywhere: BGABD
+Test ended

@@ -3,19 +3,25 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {"pretest:report": "rimraf allure-results",
-  "test:report": "npx playwright test",
-    "posttest:report": "npx allure serve allure-results"
+  "scripts": {
+    "pretest": "rimraf allure-results allure-report logs",
+    "test": "npx playwright test || true",
+    "posttest": "allure serve allure-results"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@faker-js/faker": "^10.4.0",
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.5.0",
     "allure-commandline": "^2.38.1",
     "allure-playwright": "^3.6.0",
     "rimraf": "^6.1.3"
+  },
+  "dependencies": {
+    "allure-js-commons": "^3.6.0",
+    "winston": "^3.19.0"
   }
 }

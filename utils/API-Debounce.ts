@@ -1,23 +1,29 @@
 import { Page } from '@playwright/test';
+import logger from '../utils/Logger';
 
-export function trackSearchAPICalls(page: Page) {
+export function trackAPICalls(page: Page) {
   let count = 0;
 
-  // Listen to 'response' instead of 'request' so we can get the status code
-  page.on('response', (response) => {
+  page.on('response', async (response) => {
+      const url = response.url();
     // Only track responses where the URL contains 'search'
-    if (response.url().includes('search')) {
+    if (url.includes('search')) {
       count++;
+      await response.finished();
+      const timing = response.request().timing();
+      const durationMs = timing.responseEnd;
+      
       console.log('API URL:', response.url());
       console.log('Status Code:', response.status());
+      console.log('Response Time (ms):', durationMs);
     }
   });
 
-  // Return a closure so you can check the final count later in your test
   return () => count;
 }
 
 export async function waitForDebounce(page: Page, time = 500) {
 
   await page.waitForTimeout(500);
+  logger.info('Waited for debounce');
 }

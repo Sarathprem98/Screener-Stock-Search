@@ -1,0 +1,9 @@
+Test started: TC_03: Typing 3 characters should trigger API and display results
+2026-03-25T06:58:09.651Z [INFO]: Typed search : DIE
+API URL: https://www.screener.in/api/company/search/?q=DIE&v=3&fts=1
+Status Code: 200
+Response Time (ms): 133.089111328125
+2026-03-25T06:58:10.711Z [INFO]: Waited for debounce
+2026-03-25T06:58:11.130Z [INFO]: List of results displayed:Diensten Tech Ltd,Corona Remedies Ltd,Indoco Remedies Ltd,Vidhi Specialty Food Ingredients Ltd,Venus Remedies Ltd,Shree Ganesh Remedies Ltd,Medico Remedies Ltd,Rajputana Biodiesel Ltd,Search everywhere: DIE
+2026-03-25T06:58:11.130Z [INFO]: API calls triggered:1
+Test ended

@@ -1,7 +1,0 @@
-Test started: TC_11: Numeric BSE codes should be recognized
-API URL: https://www.screener.in/api/company/search/?q=500180&v=3&fts=1
-Status Code: 200
-API calls triggered for numeric code: 1
-Results for numeric code: [ 'HDFC Bank Ltd', 'Search everywhere: 500180' ]
-Number of results for numeric code: 2
-Test ended

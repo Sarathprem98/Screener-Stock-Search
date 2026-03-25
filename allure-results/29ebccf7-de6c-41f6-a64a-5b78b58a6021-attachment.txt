@@ -1,0 +1,9 @@
+Test started: TC_02: Typing 2 characters should not trigger API and display results
+2026-03-25T06:58:11.688Z [INFO]: Typed search : ST
+API URL: https://www.screener.in/api/company/search/?q=ST&v=3&fts=1
+Status Code: 200
+Response Time (ms): 74.837890625
+2026-03-25T06:58:12.805Z [INFO]: Waited for debounce
+2026-03-25T06:58:13.052Z [INFO]: List of results displayed:Star Health & Allied Insurance Company Ltd,Sterlite Technologies Ltd,Star Cement Ltd,Strides Pharma Science Ltd,Stylam Industries Ltd,Styrenix Performance Materials Ltd,Steelcast Ltd,Studds Accessories Ltd,Search everywhere: ST
+2026-03-25T06:58:13.052Z [INFO]: API calls triggered:1
+Test ended

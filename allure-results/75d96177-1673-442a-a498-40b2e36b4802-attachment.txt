@@ -1,0 +1,6 @@
+Test started: TC_07:Extra spaces should be trimmed automatically from random data
+2026-03-25T06:58:14.588Z [INFO]: Typed search :   CORK  
+2026-03-25T06:58:15.535Z [INFO]: Waited for debounce
+2026-03-25T06:58:15.650Z [INFO]: No of resultls:1
+2026-03-25T06:58:15.972Z [INFO]: List of results displayed:Search everywhere:   CORK  
+Test ended

@@ -1,0 +1,5 @@
+Test started: TC_06: No stock should display while searching Random Data
+2026-03-25T06:57:45.242Z [INFO]: Typed search : YLKHR
+2026-03-25T06:57:46.117Z [INFO]: Waited for debounce
+2026-03-25T06:57:46.190Z [INFO]: No Results Message:Search everywhere: YLKHR
+Test ended

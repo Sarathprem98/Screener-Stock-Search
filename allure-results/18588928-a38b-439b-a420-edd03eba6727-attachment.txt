@@ -1,0 +1,5 @@
+Test started: TC_05: Lowercase search should return matching results
+2026-03-25T06:58:35.479Z [INFO]: Typed search : runolfsdottir, koepp and wyman
+2026-03-25T06:58:36.412Z [INFO]: Waited for debounce
+2026-03-25T06:58:36.657Z [INFO]: List of results displayed:Search everywhere: runolfsdottir, koepp and wyman
+Test ended

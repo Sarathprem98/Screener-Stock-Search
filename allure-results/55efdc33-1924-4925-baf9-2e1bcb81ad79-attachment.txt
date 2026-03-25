@@ -1,4 +1,0 @@
-Test started: TC_08: Special characters should be handled
-no of results count: 1
-Results for special characters: [ 'Search everywhere: @#$' ]
-Test ended

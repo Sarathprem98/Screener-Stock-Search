@@ -1,0 +1,17 @@
+Test started: TC_04: Rapid typing should not trigger API call
+API URL: https://www.screener.in/api/company/search/?q=H&v=3&fts=1
+Status Code: 200
+Response Time (ms): 82.07
+API URL: https://www.screener.in/api/company/search/?q=HE&v=3&fts=1
+Status Code: 200
+Response Time (ms): 65.037
+API URL: https://www.screener.in/api/company/search/?q=HEG&v=3&fts=1
+Status Code: 200
+Response Time (ms): 68.634
+API URL: https://www.screener.in/api/company/search/?q=HEGM&v=3&fts=1
+Status Code: 200
+Response Time (ms): 97.895
+2026-03-25T06:58:36.240Z [INFO]: Waited for debounce
+2026-03-25T06:58:36.384Z [INFO]: List of results displayed:Search everywhere: HEGM
+2026-03-25T06:58:36.385Z [INFO]: API calls triggered after rapid typing:4
+Test ended

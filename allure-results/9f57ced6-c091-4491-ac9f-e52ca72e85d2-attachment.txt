@@ -1,0 +1,17 @@
+Test started: TC_04: Rapid typing should not trigger API call
+API URL: https://www.screener.in/api/company/search/?q=K&v=3&fts=1
+Status Code: 200
+Response Time (ms): 46.481
+API URL: https://www.screener.in/api/company/search/?q=KI&v=3&fts=1
+Status Code: 200
+Response Time (ms): 50.811
+API URL: https://www.screener.in/api/company/search/?q=KIH&v=3&fts=1
+Status Code: 200
+Response Time (ms): 72.744
+API URL: https://www.screener.in/api/company/search/?q=KIHN&v=3&fts=1
+Status Code: 200
+Response Time (ms): 88.237
+2026-03-25T06:57:47.492Z [INFO]: Waited for debounce
+2026-03-25T06:57:47.583Z [INFO]: List of results displayed:Search everywhere: KIHN
+2026-03-25T06:57:47.584Z [INFO]: API calls triggered after rapid typing:4
+Test ended

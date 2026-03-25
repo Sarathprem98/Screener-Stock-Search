@@ -1,0 +1,9 @@
+Test started: TC_02: Typing 2 characters should not trigger API and display results
+2026-03-25T06:57:45.592Z [INFO]: Typed search : HA
+API URL: https://www.screener.in/api/company/search/?q=HA&v=3&fts=1
+Status Code: 200
+Response Time (ms): 66.043
+2026-03-25T06:57:46.412Z [INFO]: Waited for debounce
+2026-03-25T06:57:46.591Z [INFO]: List of results displayed:Havells India Ltd,Hatsun Agro Product Ltd,Happy Forgings Ltd,Happiest Minds Technologies Ltd,Hawkins Cookers Ltd,Harsha Engineers International Ltd,Hathway Cable & Datacom Ltd,Hariom Pipe Industries Ltd,Search everywhere: HA
+2026-03-25T06:57:46.592Z [INFO]: API calls triggered:1
+Test ended
