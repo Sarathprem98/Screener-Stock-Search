@@ -1,0 +1,17 @@
+Test started: TC_04: (Fail) Rapid typing should not trigger API call
+API URL: https://www.screener.in/api/company/search/?q=C&v=3&fts=1
+Status Code: 200
+Response Time (ms): 46.036
+API URL: https://www.screener.in/api/company/search/?q=CR&v=3&fts=1
+Status Code: 200
+Response Time (ms): 46.65
+API URL: https://www.screener.in/api/company/search/?q=CRU&v=3&fts=1
+Status Code: 200
+Response Time (ms): 46.634
+API URL: https://www.screener.in/api/company/search/?q=CRUI&v=3&fts=1
+Status Code: 200
+Response Time (ms): 42.591
+2026-03-25T09:16:20.225Z [INFO]: Waited for debounce
+2026-03-25T09:16:20.267Z [INFO]: List of results displayed:Party Cruisers Ltd,Search everywhere: CRUI
+2026-03-25T09:16:20.267Z [INFO]: API calls triggered after rapid typing:4
+Test ended

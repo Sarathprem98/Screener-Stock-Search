@@ -1,0 +1,26 @@
+Test started: TC_09: Rapid typing and then backspace
+API URL: https://www.screener.in/api/company/search/?q=G&v=3&fts=1
+Status Code: 200
+Response Time (ms): 39.698
+API URL: https://www.screener.in/api/company/search/?q=GE&v=3&fts=1
+Status Code: 200
+Response Time (ms): 39.217
+API URL: https://www.screener.in/api/company/search/?q=GER&v=3&fts=1
+Status Code: 200
+Response Time (ms): 42.815
+API URL: https://www.screener.in/api/company/search/?q=GERH&v=3&fts=1
+Status Code: 200
+Response Time (ms): 63.666
+API URL: https://www.screener.in/api/company/search/?q=GERHO&v=3&fts=1
+Status Code: 200
+Response Time (ms): 75.4
+API URL: https://www.screener.in/api/company/search/?q=GERH&v=3&fts=1
+Status Code: 200
+Response Time (ms): 1.208
+API URL: https://www.screener.in/api/company/search/?q=GER&v=3&fts=1
+Status Code: 200
+Response Time (ms): 1.638
+2026-03-25T09:15:00.384Z [INFO]: Waited for debounce
+2026-03-25T09:15:00.413Z [INFO]: List of results displayed:Tata Motors Passenger Vehicles Ltd,Berger Paints India Ltd,Ingersoll-Rand (India) Ltd,KRN Heat Exchanger and Refrigeration Ltd,Restaurant Brands Asia Ltd,ICE Make Refrigeration Ltd,Wealth First Portfolio Managers Ltd,Shree Refrigerations Ltd,Search everywhere: GER
+2026-03-25T09:15:00.413Z [INFO]: API calls triggered after backspace:7
+Test ended

@@ -1,0 +1,8 @@
+Test started: TC_10: Random long input (100+ characters) should be handled without crash
+2026-03-25T08:53:48.795Z [INFO]: Typed search : PqWR6hNZG9fRrRFDt6XLDb5WGb5HV55vF7NctKr7Vglab4m3x1WrHNnCxCy5T1mRpd0ZU55T1dIpi7Xsyb1kh3k1Gx48vWYe2UzoscVLKy844XuYtC723JrL
+API URL: https://www.screener.in/api/company/search/?q=PqWR6hNZG9fRrRFDt6XLDb5WGb5HV55vF7NctKr7Vglab4m3x1WrHNnCxCy5T1mRpd0ZU55T1dIpi7Xsyb1kh3k1Gx48vWYe2UzoscVLKy844XuYtC723JrL&v=3&fts=1
+Status Code: 200
+Response Time (ms): 67.482
+2026-03-25T08:53:49.355Z [INFO]: Waited for debounce
+2026-03-25T08:53:49.356Z [INFO]: API calls triggered for long input:1
+Test ended

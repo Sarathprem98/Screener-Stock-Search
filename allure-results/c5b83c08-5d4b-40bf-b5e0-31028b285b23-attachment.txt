@@ -1,0 +1,9 @@
+Test started: TC_02: (Fail) Typing 2 characters should not trigger API and display results
+2026-03-25T09:17:59.115Z [INFO]: Typed search : KO
+API URL: https://www.screener.in/api/company/search/?q=KO&v=3&fts=1
+Status Code: 200
+Response Time (ms): 102.745
+2026-03-25T09:17:59.670Z [INFO]: Waited for debounce
+2026-03-25T09:17:59.699Z [INFO]: List of results displayed:Kotak Mahindra Bank Ltd,Kovai Medical Center & Hospital Ltd,Kolte Patil Developers Ltd,Kothari Industrial Corporation Ltd,Kokuyo Camlin Ltd,Kothari Petrochemicals Ltd,Kopran Ltd,Kotyark Industries Ltd,Search everywhere: KO
+2026-03-25T09:17:59.700Z [INFO]: API calls triggered:1
+Test ended

@@ -6,13 +6,15 @@ import { TestData } from '../utils/TestData';
 
 
 test.describe('Stock Search Functionality', () => {
-     const Company = TestData.randomCompany();
-     const RandomString = TestData.RandomString();
-     const Extraspaces = TestData.Extraspaces();
-     const specialChars = TestData.specialChars();
-     const longString = TestData.longString();
-     const BSEcode = TestData.BSEcode();
-    
+    const testData = {
+        Company : TestData.randomCompany(),
+        RandomString : TestData.RandomString(),
+        Extraspaces : TestData.Extraspaces(),
+        specialChars : TestData.specialChars(),
+        longString : TestData.longString(),
+        BSEcode : TestData.BSEcode(),
+    };
+
 
     test('TC_01: Search bar visible/clickable on the main page', async ({ searchPage }) => {
 
@@ -26,20 +28,20 @@ test.describe('Stock Search Functionality', () => {
         // Click on search bar to verify interactivity
         await searchPage.searchBox.click();
     });
-        test('TC_02: Typing 2 characters should not trigger API and display results', async ({ page, searchPage }) => {
+    test('TC_02: (Fail) Typing 2 characters should not trigger API and display results', async ({ page, searchPage }) => {
 
         // Start tracking API calls before typing
         const getSearchCallCount = trackAPICalls(page);
 
 
         // Random company Data with Type 2 characters
-        await searchPage.search(Company.slice(0, 2).toUpperCase());
-        
+        await searchPage.search(testData.Company.slice(0, 2).toUpperCase());
+
 
         // Wait for debounce timeout
         await waitForDebounce(page);
 
-        
+
         // Verify results are displayed
         const results = searchPage.results
         const resultCount = await results.allTextContents();
@@ -61,12 +63,12 @@ test.describe('Stock Search Functionality', () => {
 
 
         // Random Data with Type 3 characters
-        await searchPage.search(Company.slice(0, 3).toUpperCase());
-        
+        await searchPage.search(testData.Company.slice(0, 3).toUpperCase());
+
 
         // Wait for debounce timeout
         await waitForDebounce(page);
-        
+
         // Verify results are displayed
         const results = searchPage.results
         const resultCount = await results.allTextContents();
@@ -78,19 +80,20 @@ test.describe('Stock Search Functionality', () => {
 
     });
 
-    test('TC_04: Rapid typing should not trigger API call', async ({ page, searchPage }) => {
+    test('TC_04: (Fail) Rapid typing should not trigger API call', async ({ page, searchPage }) => {
 
         // Start tracking API calls before typing
         const getSearchCallCount = trackAPICalls(page);
 
 
         // Rapidly type a valid company name character by character
-        await searchPage.searchBox.pressSequentially(Company.slice(0, 4).toUpperCase(), { delay: 100 });
-        
+        const searchcompany = testData.Company.slice(0, 5).toUpperCase().trim();
+        await searchPage.searchBox.pressSequentially(searchcompany, { delay: 100 });
+
 
         // Wait for debounce timeout
         await waitForDebounce(page);
-        
+
         // // Verify results are displayed
         const results = searchPage.results
         const resultCount = await results.allTextContents();
@@ -107,8 +110,8 @@ test.describe('Stock Search Functionality', () => {
 
 
         // Radom company name with 3 characters in lowercase
-        await searchPage.search(Company.slice(0, 3).toLowerCase());
-        
+        await searchPage.search(testData.Company.slice(0, 3).toLowerCase());
+
 
         // Wait for results
         await waitForDebounce(page);
@@ -119,15 +122,15 @@ test.describe('Stock Search Functionality', () => {
         const resultCount = await results.allTextContents();
 
         logger.info('List of results displayed:' + resultCount);
-        
+
 
     });
 
     test('TC_06: No stock should display while searching Random Data', async ({ page, searchPage }) => {
 
         // Random string with 4 characters that is unlikely to match any stock 
-        
-        await searchPage.search(RandomString.toUpperCase());
+
+        await searchPage.search(testData.RandomString.toUpperCase());
 
         // Wait for API response
         await waitForDebounce(page);
@@ -141,9 +144,9 @@ test.describe('Stock Search Functionality', () => {
     });
 
     test('TC_07:Extra spaces should be trimmed automatically from random data', async ({ page, searchPage }) => {
-        
+
         // Search with random data that has extra spaces
-        await searchPage.search(Extraspaces);
+        await searchPage.search(testData.Extraspaces);
 
         // Wait for results
         await waitForDebounce(page);
@@ -155,13 +158,13 @@ test.describe('Stock Search Functionality', () => {
 
         const resultsText = await results.allTextContents();
         logger.info('List of results displayed:' + resultsText);
-       
+
     });
 
     test('TC_08: Special characters should be handled', async ({ page, searchPage }) => {
-        
+
         // Search with random special characters
-        await searchPage.search(specialChars);
+        await searchPage.search(testData.specialChars);
 
         // Wait for API response
         await waitForDebounce(page);
@@ -179,22 +182,22 @@ test.describe('Stock Search Functionality', () => {
         logger.info('Results for special characters:' + resultsText);
     });
 
-    test('TC_09: Rapid typing and then backspace', async ({ page, searchPage }) => {
+    test('TC_09: (Fail) Rapid typing and then backspace', async ({ page, searchPage }) => {
 
         // Start tracking API calls before typing
         const getSearchCallCount = trackAPICalls(page);
 
 
         // Rapidly type a valid company name character by character and then backspace
-        const searchcompany = Company.slice(0, 5).toUpperCase().trim();
-        await searchPage.searchBox.type(searchcompany, { delay: 100 });
+        const searchcompany = testData.Company.slice(0, 5).toUpperCase().trim();
+        await searchPage.searchBox.pressSequentially(searchcompany, { delay: 100 });
         await searchPage.searchBox.press('Backspace');
         await searchPage.searchBox.press('Backspace');
         ;
-        
+
         // Wait for debounce timeout
         await waitForDebounce(page);
-        
+
         // // Verify results are displayed
         const results = searchPage.results
         const resultCount = await results.allTextContents();
@@ -212,7 +215,7 @@ test.describe('Stock Search Functionality', () => {
         const getSearchCallCount = trackAPICalls(page);
 
         // fill a very long random string
-        await searchPage.search(longString);
+        await searchPage.search(testData.longString);
 
         // Wait for potential API call
         await waitForDebounce(page);
@@ -231,7 +234,7 @@ test.describe('Stock Search Functionality', () => {
         const getSearchCallCount = trackAPICalls(page);
 
         // Using a Random BSE code to test numeric search functionality
-        await searchPage.search(BSEcode);
+        await searchPage.search(testData.BSEcode);
 
         // Wait for debounce and API response
         await waitForDebounce(page);

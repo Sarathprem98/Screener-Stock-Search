@@ -1,0 +1,20 @@
+Test started: TC_04: (Fail) Rapid typing should not trigger API call
+API URL: https://www.screener.in/api/company/search/?q=H&v=3&fts=1
+Status Code: 200
+Response Time (ms): 46.042
+API URL: https://www.screener.in/api/company/search/?q=HO&v=3&fts=1
+Status Code: 200
+Response Time (ms): 44.862
+API URL: https://www.screener.in/api/company/search/?q=HOM&v=3&fts=1
+Status Code: 200
+Response Time (ms): 57.701
+API URL: https://www.screener.in/api/company/search/?q=HOME&v=3&fts=1
+Status Code: 200
+Response Time (ms): 44.929
+API URL: https://www.screener.in/api/company/search/?q=HOMEN&v=3&fts=1
+Status Code: 200
+Response Time (ms): 69.69
+2026-03-25T09:17:21.574Z [INFO]: Waited for debounce
+2026-03-25T09:17:21.601Z [INFO]: List of results displayed:Search everywhere: HOMEN
+2026-03-25T09:17:21.601Z [INFO]: API calls triggered after rapid typing:5
+Test ended
