@@ -1,6 +1,5 @@
 import { Page, Locator } from '@playwright/test';
 import logger from '../utils/Logger';
-import { Faker } from '@faker-js/faker';
 
 export class SearchPage {
   readonly page: Page;
@@ -14,7 +13,7 @@ export class SearchPage {
   }
 
   async search(term: string) {
-    logger.info(`Typed search : ${term}`);
+    logger.info(`Searching for : ${term}`);
     await this.searchBox.fill(term);
   }
 
